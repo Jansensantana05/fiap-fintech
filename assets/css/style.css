@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    background-color: #001824;
+    border-right: 2px solid #000E14;
+    border-bottom: 2px solid #000E14;
+    min-height: 17vh;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.header {
+    padding: 0;
+}
+
+.notification {
+    background-color: #001824;
+    border-bottom: 2px solid #000E14;
+    min-height: 5vh;
+}
+
+.info {
+    background-color: #001B29;
+    min-height: 12vh;
+    border-bottom: 2px solid #000E14;
+    font-size: 2vmax;
+    color: #FFFFFF;
+    padding: 8px;
+}
+
+.nav {
+    background-color: #001824;
+    border-right: 2px solid #000E14;
+}
+
+.nav-item {
+    padding: 10px 0;
+}
+
+.nav-item:first-child {
+    padding-top: 33px;
+}
+
+.nav-item p {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.nav-item a:hover {
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+}
+
+.main {
+    background: #000000 linear-gradient(145deg, rgba(0,61,92,0.30015756302521013) 75%, rgba(0,0,0,0.29735644257703087) 100%);
+    min-height: 81.3vh;
+}
+
+.box-1 {
+    min-height: 7vh;
+    margin-top: 5px;
+}
+
+.btn-1 {
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.btn-1:hover {
+    border: 3px solid #002233;
+    border-radius: 5px;
+}
+
+.box-2 {
+    min-height: 20vh;
+    margin: 5px 5px 15px 5px;
+}
+
+.btn-2 {
+    border: 2px solid #002233;
+    border-radius: 5px;
+    font-size: 22px;
+    color: #FFFFFF;
+    background: linear-gradient(145deg, rgba(0,61,92,0.2049194677871149) 0%, rgba(0,0,0,0.19931722689075626) 100%);
+}
+
+.btn-2 p {
+    text-align: right;
+}
+
+.box-3 {
+    min-height: 42vh;
+    margin: 25px 12px 12px 12px;
+    border: 3px solid #002233;
+}
+
+.noticia {
+    background: linear-gradient(145deg, rgba(0,0,0,0.20211834733893552) 0%, rgba(255,255,255,0.19931722689075626) 100%);
+    border: 1px solid #002233;
+}
+
+.noticia h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+.noticia p {
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+.noticia img {
+    width: 50%;
+}
+
+@media (max-withf) {
+    
+}
